@@ -58,7 +58,6 @@ min_date = all_df["order_purchase_timestamp"].min()
 max_date = all_df["order_purchase_timestamp"].max()
 
 with st.sidebar:
-    st.image("https://github.com/dicodingacademy/assets/raw/main/logo.png")
     
     # Bungkus dalam try-except untuk menangani error pemilihan tanggal
     try:
