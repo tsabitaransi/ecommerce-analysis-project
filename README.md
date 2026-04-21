@@ -10,24 +10,21 @@ Proyek ini bertujuan untuk menganalisis data dari E-Commerce Public Dataset. Ana
 - **README.md**: Dokumentasi proyek.
 - **requirements.txt**: Daftar library Python yang dibutuhkan.
 
-## Pertanyaan Bisnis
-1. Bagaimana performa penjualan dan pendapatan perusahaan dalam beberapa bulan terakhir?
-2. Kategori produk apa yang memiliki penjualan tertinggi dan menghasilkan pendapatan paling besar?
-3. Siapa saja pelanggan yang termasuk dalam segmen "Top Spenders" atau "Loyal" menggunakan teknik RFM Analysis?
+## Setup Environment - Anaconda
+```bash
+conda create --name main-ds python=3.9
+conda activate main-ds
+pip install -r requirements.txt
+```
 
-## Instalasi
-Untuk menjalankan proyek ini secara lokal, pastikan Anda telah menginstal Python. Kemudian, ikuti langkah-langkah berikut:
-
-1. Clone repository ini:
-   git clone [https://github.com/tsabitaransi/ecommerce-analysis-project.git](https://github.com/tsabitaransi/ecommerce-analysis-project.git)
-2. Masuk direktori proyek:
-   ```bash
-   cd ecommerce-dashboard
-   ```
-4. Instal library yang dibutuhkan:
-   ```bash
-   pip install -r requirements.txt
-   ```
+## Setup Environment - Terminal
+```bash
+mkdir proyek_analisis_data
+cd proyek_analisis_data
+pipenv install
+pipenv shell
+pip install -r requirements.txt
+```
 
 ## Menjalankan Dashboard
 ```bash
